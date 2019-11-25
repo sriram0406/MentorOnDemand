@@ -1,0 +1,10 @@
+C:\Users\hp\Desktop\MentorOnDemand-master\MentorOnDemand-master\MOD.AuthLibrary\obj\Debug\netcoreapp3.0\MOD.AuthLibrary.csprojAssemblyReference.cache
+C:\Users\hp\Desktop\MentorOnDemand-master\MentorOnDemand-master\MOD.AuthLibrary\obj\Debug\netcoreapp3.0\MOD.AuthLibrary.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\MentorOnDemand-master\MentorOnDemand-master\MOD.AuthLibrary\obj\Debug\netcoreapp3.0\MOD.AuthLibrary.AssemblyInfo.cs
+C:\Users\hp\Desktop\MentorOnDemand-master\MentorOnDemand-master\MOD.AuthLibrary\bin\Debug\netcoreapp3.0\MOD.AuthLibrary.deps.json
+C:\Users\hp\Desktop\MentorOnDemand-master\MentorOnDemand-master\MOD.AuthLibrary\bin\Debug\netcoreapp3.0\MOD.AuthLibrary.dll
+C:\Users\hp\Desktop\MentorOnDemand-master\MentorOnDemand-master\MOD.AuthLibrary\bin\Debug\netcoreapp3.0\MOD.AuthLibrary.pdb
+C:\Users\hp\Desktop\MentorOnDemand-master\MentorOnDemand-master\MOD.AuthLibrary\obj\Debug\netcoreapp3.0\MOD.AuthLibrary.dll
+C:\Users\hp\Desktop\MentorOnDemand-master\MentorOnDemand-master\MOD.AuthLibrary\obj\Debug\netcoreapp3.0\MOD.AuthLibrary.pdb
+C:\Users\hp\Desktop\MentorOnDemand-master\MentorOnDemand-master\MOD.AuthLibrary\bin\Debug\netcoreapp3.0\MOD.AuthLibrary.runtimeconfig.json
+C:\Users\hp\Desktop\MentorOnDemand-master\MentorOnDemand-master\MOD.AuthLibrary\bin\Debug\netcoreapp3.0\MOD.AuthLibrary.runtimeconfig.dev.json

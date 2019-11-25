@@ -1,0 +1,39 @@
+<form class="bodybg">
+
+    <br>
+    <h2 class="h2"><strong>Mentor Request</strong></h2>
+  
+    <br>
+    <br>
+    
+    <table class="table table-condensed" style="font-size: 20px">
+      <thead>
+        <tr>
+          <th style="text-align: center">Mentor Name</th>
+          <th style="text-align: center">Course</th>
+          <th style="text-align: center">Timeslot</th>
+          <th style="text-align: center">FromDate</th>
+          <th style="text-align: center">ToDate</th>
+          <th style="text-align: center">StudentName</th>
+          <th style="text-align: center">PhoneNumber</th>
+          <th>Action</th>
+          
+        </tr>
+      </thead>
+      <tbody class="tablefont">
+        <tr *ngFor="let requests of details">
+          <td>{{requests.mentorname}}</td>
+          <td>{{requests.coursename}}</td>
+          <td>{{requests.timeslot}}</td>
+          <td>{{requests.fromDate | date }}</td>
+          <td>{{requests.toDate | date}}</td>
+          <td>{{requests.studentname }}</td>
+          <td>{{requests.phoneNumber }}</td>
+          <td><button type="button" (click)="reject_request(requests.id)" class="button">Reject</button></td>
+          
+      </tbody>
+    </table>
+    <div>
+      <p class="red-text">{{error_message}}</p>
+    </div>
+  </form>

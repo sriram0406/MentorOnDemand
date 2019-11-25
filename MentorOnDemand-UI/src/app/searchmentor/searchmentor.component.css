@@ -1,0 +1,107 @@
+
+
+.tablefont
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+  
+}
+.image
+{
+   border-image: 0%;
+   width: 70px;
+   height: 70px;
+}
+.h2
+{
+color:#581d1d;
+text-align: center;
+font-size: 35px;
+
+}
+.checked {
+    color: rgb(236, 206, 31);
+  }
+  .button
+{
+    background:#5f3636;
+    color: white;
+    border-radius: 15px;
+    
+}
+.button:hover {
+    background-color: rgb(36, 106, 146);
+    color: white;
+  }
+  th{
+    color:#581d1d;
+  }
+  
+
+.h2
+{
+color:#581d1d;
+text-align: center;
+font-size: 35px;
+
+}
+
+
+form {
+  width: 100%;
+    position: relative;
+    z-index: 1;
+    background: rgba(218, 204, 183, 0.726);
+    max-width: auto;
+    margin: auto;
+    padding: 45px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px 0 rgba(226, 214, 214, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    color: black;
+  
+  
+  }
+  .form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: rgb(231, 220, 220);
+    width: 30%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 12px;
+    color: #2b0909;
+    text-decoration-color: white;
+  
+  }
+  .search-hero {
+    max-width: 50%;
+    padding-bottom: 50px;
+    margin:auto;
+  }
+  
+  
+  .form button:hover,.form button:active,.form button:focus {
+    background: rgb(92, 35, 35);
+  }
+  .form .message {
+    margin: 15px 0 0;
+    color: #c51717;
+    font-size: 12px;
+  }
+  .form .message a {
+    color: #10350b;;
+    text-decoration: none;
+  }
+  .form .register-form {
+    display: none;
+    
+  }
+  
+
+
+

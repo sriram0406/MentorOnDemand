@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20191107105214_InitlaMigration.cs" />
+    <Compile Remove="Migrations\20191107105214_InitlaMigration.Designer.cs" />
+    <Compile Remove="Migrations\20191108113736_skillModel.cs" />
+    <Compile Remove="Migrations\20191108113736_skillModel.Designer.cs" />
+    <Compile Remove="Migrations\20191119111353_authmigration.cs" />
+    <Compile Remove="Migrations\20191119111353_authmigration.Designer.cs" />
+    <Compile Remove="Migrations\20191119111452_authmigration.cs" />
+    <Compile Remove="Migrations\20191119111452_authmigration.Designer.cs" />
+    <Compile Remove="Migrations\20191119120448_migration1.cs" />
+    <Compile Remove="Migrations\20191119120448_migration1.Designer.cs" />
+    <Compile Remove="Migrations\20191120044233_authmigration.cs" />
+    <Compile Remove="Migrations\20191120044233_authmigration.Designer.cs" />
+    <Compile Remove="Migrations\20191120050845_authmigration.cs" />
+    <Compile Remove="Migrations\20191120050845_authmigration.Designer.cs" />
+    <Compile Remove="Migrations\20191123111840_m2.cs" />
+    <Compile Remove="Migrations\20191123111840_m2.Designer.cs" />
+    <Compile Remove="Migrations\20191125043425_m2.cs" />
+    <Compile Remove="Migrations\20191125043425_m2.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.0.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.0.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+</Project>

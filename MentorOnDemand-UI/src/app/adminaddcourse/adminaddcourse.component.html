@@ -1,0 +1,18 @@
+<div class="add-page">
+        <div class="form">
+          <h2 class="texth2">Add Course Details</h2>
+          <form class="update-form" (ngSubmit)="submit_form_data()" #form1="ngForm" >
+            <input type="text" [(ngModel)]="Name" name="Name" #coursename_ref="ngModel"  placeholder="Course Name"/>
+          <br><br>
+          <input type="number" [(ngModel)]="fee" name="fee" #coursefee_ref="ngModel"  placeholder="Course Fee">
+          <br><br>
+          <input type="text" [(ngModel)]="Duration" name="Duration" #duration_ref="ngModel" placeholder="duration">
+          <br><br>
+            <button [disabled]="!form1.form.valid">Add</button>
+          </form>
+          <div>
+            <h3 class="error">{{error_message}}</h3>
+          </div>
+        </div>
+      </div>
+        

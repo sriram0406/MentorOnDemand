@@ -1,0 +1,8 @@
+C:\Users\hp\Desktop\MentorOnDemand-master\MentorOnDemand-master\MOD.StudentLibrary\bin\Debug\netcoreapp3.0\MOD.StudentLibrary.deps.json
+C:\Users\hp\Desktop\MentorOnDemand-master\MentorOnDemand-master\MOD.StudentLibrary\bin\Debug\netcoreapp3.0\MOD.StudentLibrary.dll
+C:\Users\hp\Desktop\MentorOnDemand-master\MentorOnDemand-master\MOD.StudentLibrary\bin\Debug\netcoreapp3.0\MOD.StudentLibrary.pdb
+C:\Users\hp\Desktop\MentorOnDemand-master\MentorOnDemand-master\MOD.StudentLibrary\obj\Debug\netcoreapp3.0\MOD.StudentLibrary.csprojAssemblyReference.cache
+C:\Users\hp\Desktop\MentorOnDemand-master\MentorOnDemand-master\MOD.StudentLibrary\obj\Debug\netcoreapp3.0\MOD.StudentLibrary.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\MentorOnDemand-master\MentorOnDemand-master\MOD.StudentLibrary\obj\Debug\netcoreapp3.0\MOD.StudentLibrary.AssemblyInfo.cs
+C:\Users\hp\Desktop\MentorOnDemand-master\MentorOnDemand-master\MOD.StudentLibrary\obj\Debug\netcoreapp3.0\MOD.StudentLibrary.dll
+C:\Users\hp\Desktop\MentorOnDemand-master\MentorOnDemand-master\MOD.StudentLibrary\obj\Debug\netcoreapp3.0\MOD.StudentLibrary.pdb

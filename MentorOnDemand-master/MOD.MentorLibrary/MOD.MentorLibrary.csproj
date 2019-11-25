@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20191119095704_migration1.cs" />
+    <Compile Remove="Migrations\20191119095704_migration1.Designer.cs" />
+    <Compile Remove="Migrations\20191119111656_mentormigration.cs" />
+    <Compile Remove="Migrations\20191119111656_mentormigration.Designer.cs" />
+    <Compile Remove="Migrations\20191119111737_mentormigration.cs" />
+    <Compile Remove="Migrations\20191119111737_mentormigration.Designer.cs" />
+    <Compile Remove="Migrations\20191119113617_mentormigration1.cs" />
+    <Compile Remove="Migrations\20191119113617_mentormigration1.Designer.cs" />
+    <Compile Remove="Migrations\20191120043057_mentormigration.cs" />
+    <Compile Remove="Migrations\20191120043057_mentormigration.Designer.cs" />
+    <Compile Remove="Migrations\20191120043524_mentormigration.cs" />
+    <Compile Remove="Migrations\20191120043524_mentormigration.Designer.cs" />
+    <Compile Remove="Migrations\20191120043953_mentormigration.cs" />
+    <Compile Remove="Migrations\20191120043953_mentormigration.Designer.cs" />
+    <Compile Remove="Migrations\20191120044629_mentormigration.cs" />
+    <Compile Remove="Migrations\20191120044629_mentormigration.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="3.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.0.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.0.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+</Project>

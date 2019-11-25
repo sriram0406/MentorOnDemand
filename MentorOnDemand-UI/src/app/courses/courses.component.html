@@ -1,0 +1,28 @@
+<form class="bodybg">
+
+  <br>
+  <h2 class="h2"><strong>Courses List</strong></h2>
+
+  <br>
+  <br>
+  <table class="table table-condensed" style="font-size: 20px">
+    <thead>
+      <tr>
+        <th style="text-align: center">Course Name</th>
+        <th style="text-align: center">Duration</th>
+        <th style="text-align: center">Course Fee</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let course of courses">
+        <td>{{course.name}}</td>
+        <td>{{course.duration}}</td>
+        <td>{{course.fee}}</td>
+
+      </tr>
+    </tbody>
+  </table>
+  <div>
+    <p class="red-text">{{error_message}}</p>
+  </div>
+</form>

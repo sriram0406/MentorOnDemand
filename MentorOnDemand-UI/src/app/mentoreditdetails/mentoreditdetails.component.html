@@ -1,0 +1,38 @@
+<form class="bodybg">
+
+  <br>
+  <h2 class="h2"><strong>Mentor Details</strong></h2>
+
+  <br>
+  <br>
+  <button routerLink="/mentoradddetails">Add Details</button>
+  <br><br>
+  <table class="table table-condensed" style="font-size: 20px">
+    <thead>
+      <tr>
+        <th style="text-align: center">Mentor Name</th>
+        <th style="text-align: center">Course</th>
+        <th style="text-align: center">Timeslot</th>
+        <th style="text-align: center">FromDate</th>
+        <th style="text-align: center">ToDate</th>
+        <th>Delete</th>
+        <th>Update</th>
+      </tr>
+    </thead>
+    <tbody class="tablefont">
+      <tr *ngFor="let mentordetails of details">
+        <td>{{mentordetails.mentorname}}</td>
+        <td>{{mentordetails.coursename}}</td>
+        <td>{{mentordetails.timeslot}}</td>
+        <td>{{mentordetails.fromDate | date }}</td>
+        <td>{{mentordetails.toDate | date}}</td>
+        <td><a (click)="delete_details(mentordetails.id)" title="Delete"><i
+              class="glyphicon glyphicon-remove glyphicon-big" style="color:red;"></i></a></td>
+        <td [routerLink]="['/mentorupdatedetails', mentordetails.id]"><a title="Update"><i
+              class="glyphicon glyphicon-edit glyphicon-big" aria-hidden="true"></i></a></td>
+    </tbody>
+  </table>
+  <div>
+    <p class="red-text">{{error_message}}</p>
+  </div>
+</form>

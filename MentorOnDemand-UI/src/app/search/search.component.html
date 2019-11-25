@@ -1,0 +1,31 @@
+
+<form>
+ 
+    <div class="row"></div>
+      <div class="search-hero">
+        <input class="form-control" id="myInput" type="text" name="search" 
+          placeholder="Search by Courses,Duration,Fee...">
+          <br>
+      </div>
+      <table  class="table table-condensed" style="font-size: 20px" >
+        <thead>
+          <tr>
+            <th style="text-align: center">CourseName</th>
+            <th style="text-align: center">Duration</th>
+            <th style="text-align: center">Coursefee</th>
+            <th style="text-align: center">Register</th>
+          </tr>
+        </thead>
+        <tbody id="myTable" class="tablefont">
+          <tr *ngFor="let course of courses,details">
+            <td>{{course.name}}</td>
+            <td>{{course.duration}}</td>
+            <td>{{course.fee}}</td>
+            <td><button type="button" routerLink="/" class="button">Register</button></td>
+            
+          </tr>
+        </tbody>
+      </table>
+    
+ 
+</form>

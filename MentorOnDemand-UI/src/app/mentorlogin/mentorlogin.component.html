@@ -1,0 +1,26 @@
+
+
+  
+  
+<div class="login-page">
+    <div class="form">
+      <h2 class="logintext">Mentor Login</h2>
+      <form class="login-form" (ngSubmit)="submit_form_data()" #form1="ngForm" >
+        <input type="email" [(ngModel)]="Email" name="Email" #email_id_ref="ngModel" required placeholder="Email Id"/>
+        <span *ngIf="email_id_ref.invalid && email_id_ref.dirty">
+          <span *ngIf="email_id_ref.errors.required" class="error"> Should not be empty</span>
+      </span><br><br>
+      <input type="password" [(ngModel)]="Password" name="Password" #pass_word_ref="ngModel" required placeholder="Password">
+      <span *ngIf="pass_word_ref.invalid && pass_word_ref.dirty">
+        <span *ngIf="pass_word_ref.errors.required" class="error"> Should not be empty</span>
+      </span><br><br>
+        <button [disabled]="!form1.form.valid">login</button>
+        <p class="message">Not registered?
+          <a routerLink="/mentorsignup">signup</a></p>
+      </form>
+      <div>
+        <h3 class="error">{{error_message}}</h3>
+      </div>
+    </div>
+  </div>
+    

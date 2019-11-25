@@ -1,0 +1,10 @@
+C:\Users\hp\Desktop\MentorOnDemand-master\MentorOnDemand-master\MOD.AdminLibrary\obj\Debug\netcoreapp3.0\MOD.AdminLibrary.csprojAssemblyReference.cache
+C:\Users\hp\Desktop\MentorOnDemand-master\MentorOnDemand-master\MOD.AdminLibrary\obj\Debug\netcoreapp3.0\MOD.AdminLibrary.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\MentorOnDemand-master\MentorOnDemand-master\MOD.AdminLibrary\obj\Debug\netcoreapp3.0\MOD.AdminLibrary.AssemblyInfo.cs
+C:\Users\hp\Desktop\MentorOnDemand-master\MentorOnDemand-master\MOD.AdminLibrary\bin\Debug\netcoreapp3.0\MOD.AdminLibrary.deps.json
+C:\Users\hp\Desktop\MentorOnDemand-master\MentorOnDemand-master\MOD.AdminLibrary\bin\Debug\netcoreapp3.0\MOD.AdminLibrary.dll
+C:\Users\hp\Desktop\MentorOnDemand-master\MentorOnDemand-master\MOD.AdminLibrary\bin\Debug\netcoreapp3.0\MOD.AdminLibrary.pdb
+C:\Users\hp\Desktop\MentorOnDemand-master\MentorOnDemand-master\MOD.AdminLibrary\obj\Debug\netcoreapp3.0\MOD.AdminLibrary.dll
+C:\Users\hp\Desktop\MentorOnDemand-master\MentorOnDemand-master\MOD.AdminLibrary\obj\Debug\netcoreapp3.0\MOD.AdminLibrary.pdb
+C:\Users\hp\Desktop\MentorOnDemand-master\MentorOnDemand-master\MOD.AdminLibrary\bin\Debug\netcoreapp3.0\MOD.AdminLibrary.runtimeconfig.json
+C:\Users\hp\Desktop\MentorOnDemand-master\MentorOnDemand-master\MOD.AdminLibrary\bin\Debug\netcoreapp3.0\MOD.AdminLibrary.runtimeconfig.dev.json

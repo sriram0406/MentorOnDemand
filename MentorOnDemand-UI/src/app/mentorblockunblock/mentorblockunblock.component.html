@@ -1,0 +1,42 @@
+<form >
+
+    <br>
+    <h2><strong>Users List</strong></h2>
+
+    <br>
+    <br>
+    <table class="table table-condensed" style="font-size: 20px">
+        <thead>
+            <tr>
+                <th style="text-align: center"> FirstName</th>
+                <th style="text-align: center">Last Name</th>
+                <th style="text-align: center">Email</th>
+                <th style="text-align: center">PhoneNumber</th>
+                <th style="text-align: center">Action</th>
+            </tr>
+        </thead>
+        <tbody class="tablefont">
+            <tr *ngFor="let course of details">
+                <td>{{course.firstName}}</td>
+                <td>{{course.lastName}}</td>
+                <td>{{course.email}}</td>
+                <td>{{course.phoneNumber}}</td>
+                <!-- <td><a (click)="delete_course(course.id)" title="Delete"><i
+                class="glyphicon glyphicon-remove glyphicon-big" style="color:red;"></i></a></td>
+          <td [routerLink]="['/adminupdatecourse', course.id]"><a title="Update"><i
+                class="glyphicon glyphicon-edit glyphicon-big" aria-hidden="true"></i></a></td> -->
+                <td>
+                    <div *ngIf="course.active">
+                        <button class="btn btn-sm btn-func btn-danger mx-3" (click)="block(course.id)">Block</button>
+                    </div>
+                    <div *ngIf="!course.active">
+                        <button class="btn btn-sm btn-func btn-primary" (click)="unBlock(course.id)">UnBlock</button>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <div>
+        <p class="red-text">{{error_message}}</p>
+    </div>
+</form>

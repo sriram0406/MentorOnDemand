@@ -1,0 +1,42 @@
+<nav class="navbar navbar-default" style="font-size: 20px">
+
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+      <li class="active"><a routerLink="">Home</a></li>
+      <li class="active"><a *ngIf="show" routerLink="/courses">Courses</a></li>
+      <li class="active"><a routerLink="">About</a></li>
+      <li class="active"><a *ngIf="show" routerLink="/trainerprofile">Mentor Profile</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Search <span
+            class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li style="font-size: 20px"><a routerLink="/searchmentor">Mentor</a></li>
+          <li class="divider"></li>
+          <li style="font-size: 20px"><a routerLink="/search">Courses</a></li>
+        </ul>
+      </li>
+      <li class="dropdown"><a *ngIf="!show" class="dropdown-toggle" data-toggle="dropdown" href="#">Login as <span
+            class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li style="font-size: 20px"><a routerLink="/mentorlogin">Mentor</a></li>
+          <li class="divider"></li>
+          <li style="font-size: 20px"><a routerLink="/adminlogin">Admin</a></li>
+        </ul>
+      </li>
+      <li class="dropdown"><a *ngIf="!show" class="dropdown-toggle" data-toggle="dropdown" href="#">Signup as <span
+        class="caret"></span></a>
+    <ul class="dropdown-menu">
+      <li style="font-size: 20px"><a routerLink="/mentorsignup">Mentor</a></li>
+      <li class="divider"></li>
+      <li style="font-size: 20px"><a routerLink="/signup">Student</a></li>
+    </ul>
+  </li>
+    </ul>
+    <a *ngIf="show" onclick="location.reload();" routerLink="/logout" style="float: right"><i class="fa fa-sign-out"
+        aria-hidden="true"></i>Logout</a>
+  </div>
+</nav><br>
+<div style="min-height:607px;" class="container">
+  <div class="form">
+
+    <router-outlet></router-outlet>
+  </div>
